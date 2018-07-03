@@ -74,7 +74,7 @@ var customers = [
 // Create an array of all email addresses
 // first without using lodash's map (with property argument) method, then with it.
 
-//CODE HERE
+var result = customers.map(a => a.email);
 
 
 
